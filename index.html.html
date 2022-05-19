@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div id="calculator-layout">
+        <div id="display">
+            <div id="input"></div>
+            <div id="output"></div>
+        </div>
+        <button id="clear" onclick="erase()"> C </button>
+        <button id="percentage" class="row-1" onclick="clicked(4),percentage()"> % </button>
+        <button id="delete" class="row-1"> Del </button>
+        <button id="division" onclick="clicked(3),division()"> / </button><br>
+        <button id="num-7" onclick="digit(7)"> 7 </button>
+        <button id="num-8" onclick="digit(8)"> 8 </button>
+        <button id="num-9" onclick="digit(9)"> 9&nbsp; </button>
+        <button id="multiplication" onclick="clicked(2),multiplication()"> x </button><br>
+        <button id="num-4" onclick="digit(4)"> 4 </button>
+        <button id="num-5" onclick="digit(5)"> 5&nbsp; </button>
+        <button id="num-6" onclick="digit(6)"> 6 </button>
+        <button id="subtraction" onclick="clicked(1),subtraction()"> -&nbsp; </button><br>
+        <button id="num-1" onclick="digit(1)"> 1 </button>
+        <button id="num-2" onclick="digit(2)"> 2&nbsp; </button>
+        <button id="num-3" onclick="digit(3)"> 3 </button>
+        <button id="addition" onclick="clicked(0),addition()"> + </button><br>
+        <button id="num-00" onclick="digit(00)" > 00 </button>
+        <button id="num-0" onclick="digit(0)"> 0 </button>
+        <button id="point" onclick="digit()"> . </button>
+        <button id="isequalto" onclick="result()"> = </button>
+    </div>
+</body>
+</html>
