@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: blueviolet;
+    background-color: rgba(138, 43, 226,0.8);
 }
 
 #calculator-layout{
@@ -14,6 +14,7 @@ body{
     padding: 5px;
     border-radius: 9px;
 }
+
 #display{
     text-align: right;
     height: 70px;
@@ -23,27 +24,45 @@ body{
     font-weight: bold;
     border-radius: 8px;
     border: 2px solid turquoise;
-    
 }
+
 #input{
     height: 45px;
-    font-weight: bolder;
+    font-size: 25px;
     margin: 1px;
 }
+
 #output{
     height: 35px;
-    margin: 3px;
-    font-weight: bolder;
+    margin: 2px;
+    font-size: 20px;
 }
+.row-1{
+    margin-top: 8px;
+}
+
 button{
+    text-align: center;
     padding: 21px;
     margin: 2px;
     border-color: turquoise;
     border-radius: 10px;
-    font-size: large;
+    font-size: 25px;
     background-color: whitesmoke;
 }
-.row-1{
-    padding: 18px;
+#division{
+    padding-right: 28px;
 }
 
+#isequalto{
+    background-color: orange;
+    color: white;
+}
+button:hover{
+    background-color: rgba(0, 0, 0,0.8);
+    color: whitesmoke;
+}
+#clear{
+    background-color: rgba(255, 165, 0,0.9);
+    color: white;
+}
